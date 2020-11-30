@@ -4,6 +4,7 @@ I'm Thijs and I'm not that great at coding, however I know some things (how to G
 #### What I'm working on:
 - Mainly TANTALUM, a tool to calculate number of passwords possible within set limitations. [You can find it here.][1]
 - Also some datapacks for Minecraft, you can find them at [this page][2]
+- And a little bit on a StatusToday, located [here][3]
 
 <!--
 **twboom/twboom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -22,3 +23,4 @@ Here are some ideas to get you started:
 
 [1]: https://github.com/curesium/tantalum 'TANTALUM by CURESIUM'
 [2]: https://github.com/techsomnia 'TECHSOMNIA'
+[3]: https://github.com/twboom/statustoday 'StatusToday'
