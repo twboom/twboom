@@ -4,7 +4,7 @@ Welcome on my profile! Let me tell you something about myself!
 I'm Thijs and I'm not that great at coding, however I know some things (how to Google stuff). I only know Javascript and that's the only thing I can actually write (sort of) and HTML and CSS of course!
 
 #### What I'm working on:
-- My main project recently switched from [randucy](4) to [SynthQuencer](6)!
+- My main project recently switched from [randucy][4] to [SynthQuencer][6]!
 - TANTALUM, a tool to calculate number of passwords possible within set limitations. [You can find it here.][1]
 - Also some datapacks for Minecraft, you can find them at [this page][2]
 - And a little bit on a StatusToday, located [here][3]
