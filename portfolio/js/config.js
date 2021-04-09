@@ -22,8 +22,8 @@ const fetchData = {
         {
             "folder": "assets/html/modals",
             "extension": "html",
-            "output": "html.modals",
-            "files": ["coding", "music", "art", "contact"]
+            "output": "html",
+            "files": ["coding", "music", "contact", "art"]
         }
     ]
 }

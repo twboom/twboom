@@ -8,13 +8,17 @@ function createCards() { // Creating cards
 
         // Creating container (card itself)
         const container = document.createElement('div');
-        container.setAttribute('class', 'card')
+        container.setAttribute('class', 'card');
+        container.setAttribute('data-card', card.name);
 
         // Creating title
         const title = document.createElement('p');
         title.setAttribute('class', 'card-title');
         title.innerText = card.name.toUpperCase();
         container.appendChild(title);
+
+        // Adding event listeners
+        container.addEventListener('click', displayModal)
 
         // Adding the completed card to the card elements
         cardElements.push(container)
