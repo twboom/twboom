@@ -27,6 +27,7 @@ function createModal(modal) { // Making a modal
     const closeButton = document.createElement('button');
     closeButton.setAttribute('id', 'modal-close');
     closeButton.innerText = `Close`;
+    closeButton.addEventListener('click', removeModal)
     content.appendChild(closeButton)
 
     // Appending 'visible' par to fullscreen container
@@ -40,4 +41,8 @@ function displayModal(evt) {
     const modalName = evt.target.getAttribute('data-card')
     const modal = createModal(modalName);
     document.body.appendChild(modal)
+}
+
+function removeModal() {
+    document.getElementById('modal-container').remove()
 }
