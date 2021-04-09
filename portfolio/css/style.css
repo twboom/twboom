@@ -4,6 +4,8 @@ body {
     background-color: #1f202c;
 }
 
+/* Header */
+
 header {
     width: 100%;
     text-align: center;
@@ -22,4 +24,34 @@ p#subtitle {
     color: white;
     font-size: 4vw;
     margin-top: 0;
+}
+
+/* Cards */
+div#cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.card {
+    background-color: white;
+    width: 30vw;
+    height: 30vh;
+    margin: 16px;
+    border: hidden;
+    border-radius: 16px;
+    filter: drop-shadow(0 0 10px #0e0e0e);
+}
+
+div.card:hover {
+    transform: scale(1.05);
+}
+
+p.card-title {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 4px;
 }
