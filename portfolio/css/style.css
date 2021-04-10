@@ -26,6 +26,16 @@ p#subtitle {
     margin-top: 0;
 }
 
+/* General styling */
+h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Source Sans Pro';
+}
+
 /* Cards */
 div#cards {
     width: 100%;

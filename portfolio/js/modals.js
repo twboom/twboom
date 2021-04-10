@@ -21,7 +21,10 @@ function createModal(modal) { // Making a modal
     content.appendChild(title)
 
     // Setting the contents of the modal
-    content.innerHTML += html
+    const contentContainer = document.createElement('section');
+    contentContainer.setAttribute('id', 'modal-content-container');
+    contentContainer.innerHTML += html;
+    content.appendChild(contentContainer)
 
     // Making the close button
     const closeButton = document.createElement('button');
