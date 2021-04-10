@@ -36,6 +36,10 @@ p {
     font-family: 'Source Sans Pro';
 }
 
+li {
+    font-family: 'Source Sans Pro';
+}
+
 /* Cards */
 div#cards {
     width: 100%;
