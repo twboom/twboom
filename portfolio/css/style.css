@@ -36,13 +36,14 @@ div#cards {
 
 div.card {
     background-color: white;
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
     margin: 16px;
     border: hidden;
     border-radius: 16px;
     filter: drop-shadow(0 0 10px #0e0e0e);
     position: relative;
+    cursor: pointer;
 }
 
 div.card:hover {
@@ -52,17 +53,22 @@ div.card:hover {
 p.card-title {
     font-family: 'Source Sans Pro';
     font-weight: 600;
-    font-size: 48px;
+    font-size: 300%;
     text-align: center;
     margin-top: 4px;
+    margin-bottom: 0;
 }
 
 p.icon-container {
-    width: min-content;
+    height: 80%;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-i.fas {
-    font-size: 500%;
-    position: absolute;
+img.icon {
+    width: 50%;
 }

@@ -15,18 +15,22 @@ function createCards() { // Creating cards
         const title = document.createElement('p');
         title.setAttribute('class', 'card-title');
         title.innerText = card.name.toUpperCase();
+        title.setAttribute('data-card', card.name);
         container.appendChild(title);
 
         // Adding the icon
         const iconContainer = document.createElement('p');
         iconContainer.setAttribute('class', 'icon-container');
-        const icon = document.createElement('i');
-        icon.setAttribute('class', `fas ${card.icon}`);
+        iconContainer.setAttribute('data-card', card.name);
+        const icon = document.createElement('img');
+        icon.setAttribute('class', `icon`);
+        icon.setAttribute('src', `assets/icons/${card.icon}.svg`);
+        icon.setAttribute('data-card', card.name);
         iconContainer.appendChild(icon)
         container.appendChild(iconContainer)
 
         // Adding event listeners
-        container.addEventListener('click', displayModal)
+        container.addEventListener('click', displayModal);
 
         // Adding the completed card to the card elements
         cardElements.push(container)
@@ -42,4 +46,8 @@ function displayCards() {
     }
 }
 
-window.onload = displayCards
+function buildPage() {
+    displayCards()
+}
+
+window.onload = buildPage

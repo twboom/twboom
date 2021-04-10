@@ -9,9 +9,9 @@ div#modal-container {
 }
 
 div#modal-content {
-    background-color: white;
+    background-color: #ffffff;
     width: 80%;
-    margin: 10% auto;
+    margin: 5% auto;
     min-height: 80%;
     border: hidden;
     border-radius: 16px;
@@ -33,11 +33,15 @@ button#modal-close {
     position: absolute;
     bottom: 16px;
     left: 35%;
-    background-color: red;
+    background-color: rgb(167, 0, 0);
     outline: none;
     border: hidden;
     border-radius: 8px;
     color: white;
     font-family: 'Source Sans Pro';
     font-size: 24px;
+}
+
+button#modal-close:hover {
+    background-color: red;
 }

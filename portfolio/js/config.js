@@ -1,19 +1,19 @@
 const cards = [
     {
         "name": "coding",
-        "icon": "fa-code"
+        "icon": "code"
     },
     {
         "name": "music",
-        "icon": "fa-music"
+        "icon": "music"
     },
     {
         "name": "art",
-        "icon": 'fa-camera'
+        "icon": 'camera'
     },
     {
         "name": "about",
-        "icon": "fa-user"
+        "icon": "users"
     }
 ]
 

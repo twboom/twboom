@@ -1,3 +1,5 @@
-div.card {
+div.card,
+button#modal-close
+{
     transition: 0.5s;
 }

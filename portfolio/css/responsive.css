@@ -1,0 +1,6 @@
+@media only screen and (max-width: 1400px) {
+    div.card {
+        width: 30vh;
+        height: 30vh;
+    }
+}
