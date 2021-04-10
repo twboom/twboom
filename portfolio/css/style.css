@@ -58,7 +58,7 @@ p.card-title {
 }
 
 p.icon-container {
-    width: 85%;
+    width: min-content;
     text-align: center;
 }
 
