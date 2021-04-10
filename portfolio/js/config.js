@@ -1,18 +1,19 @@
 const cards = [
     {
         "name": "coding",
-        "modal": {
-
-        }
+        "icon": "fa-code"
     },
     {
-        "name": "music"
+        "name": "music",
+        "icon": "fa-music"
     },
     {
-        "name": "art"
+        "name": "art",
+        "icon": 'fa-camera'
     },
     {
-        "name": "contact"
+        "name": "about",
+        "icon": "fa-user"
     }
 ]
 
@@ -23,7 +24,7 @@ const fetchData = {
             "folder": "assets/html/modals",
             "extension": "html",
             "output": "html",
-            "files": ["coding", "music", "contact", "art"]
+            "files": ["coding", "music", "about", "art"]
         }
     ]
 }

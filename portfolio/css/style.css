@@ -31,17 +31,18 @@ div#cards {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 div.card {
     background-color: white;
     width: 30vw;
-    height: 30vh;
+    height: 30vw;
     margin: 16px;
     border: hidden;
     border-radius: 16px;
     filter: drop-shadow(0 0 10px #0e0e0e);
+    position: relative;
 }
 
 div.card:hover {
@@ -54,4 +55,14 @@ p.card-title {
     font-size: 48px;
     text-align: center;
     margin-top: 4px;
+}
+
+p.icon-container {
+    width: 85%;
+    text-align: center;
+}
+
+i.fas {
+    font-size: 500%;
+    position: absolute;
 }

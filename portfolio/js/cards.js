@@ -17,6 +17,14 @@ function createCards() { // Creating cards
         title.innerText = card.name.toUpperCase();
         container.appendChild(title);
 
+        // Adding the icon
+        const iconContainer = document.createElement('p');
+        iconContainer.setAttribute('class', 'icon-container');
+        const icon = document.createElement('i');
+        icon.setAttribute('class', `fas ${card.icon}`);
+        iconContainer.appendChild(icon)
+        container.appendChild(iconContainer)
+
         // Adding event listeners
         container.addEventListener('click', displayModal)
 
