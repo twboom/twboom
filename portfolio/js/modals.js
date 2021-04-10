@@ -4,7 +4,7 @@ function createModal(modal) { // Making a modal
     const html = fetchData.data.html[modal];
 
     // Checking if it exists
-    if (modal === undefined || html === undefined) { console.error('No modal found'); return }
+    if (modal === undefined || html === undefined) { console.error('No modal found'); return false }
 
     // Making the fullscreen container
     const container = document.createElement('div');
@@ -40,11 +40,13 @@ function createModal(modal) { // Making a modal
     return container
 }
 
-function displayModal(evt) {
-    const modalName = evt.target.getAttribute('data-card')
+function displayModal(input, custom) {
+    let modalName = input;
+    if (!custom) { modalName = input.target.getAttribute('data-card') };
     const modal = createModal(modalName);
-    document.body.appendChild(modal)
-}
+    if (!modal) { return }
+    document.body.appendChild(modal);
+};
 
 function removeModal() {
     document.getElementById('modal-container').remove()
