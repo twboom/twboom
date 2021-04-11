@@ -41,7 +41,8 @@ li {
 }
 
 img {
-    width: 100%;
+    width: 70%;
+    margin-left: 15%;
     border: hidden;
     border-radius: 16px;
     filter: drop-shadow(0 0 10px #313131);
@@ -49,7 +50,7 @@ img {
 
 img:hover {
     border-radius: 8px;
-    transform: scale(1.1);
+    transform: scale(1.05);
     filter: drop-shadow(0 0 10px #121212);
 }
 
@@ -97,5 +98,6 @@ p.icon-container {
 }
 
 img.icon {
+    margin: 0;
     width: 50%;
 }

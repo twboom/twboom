@@ -3,4 +3,8 @@
         width: 30vh;
         height: 30vh;
     }
+
+    img {
+        width: 100%;
+    }
 }
