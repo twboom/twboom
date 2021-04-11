@@ -20,11 +20,19 @@ h1#title {
     margin-top: 16px;
 }
 
+a#title-link {
+    appearance: none;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
 p#subtitle {
     font-family: 'Source Code Pro';
     color: white;
     font-size: 2vw;
     margin-top: 0;
+    cursor: default;
 }
 
 /* General styling */
