@@ -13,7 +13,7 @@ const cards = [
     },
     {
         "name": "about",
-        "icon": "users"
+        "icon": "user"
     }
 ]
 
