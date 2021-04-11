@@ -78,6 +78,10 @@ div.card:hover {
     transform: scale(1.05);
 }
 
+div.card:hover img.icon {
+    transform: scale(1.1);
+}
+
 p.card-title {
     font-family: 'Source Sans Pro';
     font-weight: 600;
@@ -100,4 +104,9 @@ p.icon-container {
 img.icon {
     margin: 0;
     width: 50%;
+    filter: drop-shadow(0 0 5px #313131);
+}
+
+img.icon:hover {
+    transform: none;
 }
