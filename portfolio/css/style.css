@@ -22,7 +22,7 @@ h1#title {
 p#subtitle {
     font-family: 'Source Sans Pro';
     color: white;
-    font-size: 4vw;
+    font-size: 2vw;
     margin-top: 0;
 }
 
@@ -79,7 +79,7 @@ div.card:hover {
 }
 
 div.card:hover img.icon {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 p.card-title {
