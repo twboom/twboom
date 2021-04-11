@@ -40,6 +40,19 @@ li {
     font-family: 'Source Sans Pro';
 }
 
+img {
+    width: 100%;
+    border: hidden;
+    border-radius: 16px;
+    filter: drop-shadow(0 0 10px #313131);
+}
+
+img:hover {
+    border-radius: 8px;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px #121212);
+}
+
 /* Cards */
 div#cards {
     width: 100%;
