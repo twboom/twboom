@@ -46,6 +46,8 @@ function displayModal(input, custom) {
     const modal = createModal(modalName);
     if (!modal) { return }
     document.body.appendChild(modal);
+    document.body.style.postition = 'sticky';
+    document.body.style.top = 0;
 };
 
 function removeModal() {

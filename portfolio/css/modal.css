@@ -12,12 +12,14 @@ div#modal-content {
     background-color: #ffffff;
     width: 80%;
     margin: 5% auto;
-    min-height: 80%;
+    max-height: 80%;
     border: hidden;
     border-radius: 16px;
     filter: drop-shadow(0 0 10px #0e0e0e);
     position: relative;
     padding-top: 16px;
+    padding-bottom: 16px;
+    overflow-y: auto;
 }
 
 section#modal-content-container {
@@ -36,7 +38,7 @@ h1#modal-title {
 button#modal-close {
     width: 30%;
     padding: 16px;
-    position: absolute;
+    position: sticky;
     bottom: 16px;
     left: 35%;
     background-color: rgb(167, 0, 0);

@@ -1,0 +1,23 @@
+  /* width */
+::-webkit-scrollbar {
+    display: block;
+    width: 14px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 14px 14px transparent;
+  border: solid 4px transparent;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 14px 14px #bbbbbe;
+    border: solid 4px transparent;
+    border-radius: 14px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 14px 14px #666666;
+}
